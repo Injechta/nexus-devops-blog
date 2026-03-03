@@ -1,0 +1,20 @@
+---
+import Layout from '@/layouts/Layout.astro'; 
+---
+
+<Layout title="Bienvenue dans la Forge !">
+  <section class="flex flex-col items-center justify-center min-h-[60vh] text-center px-4">
+    <div class="bg-primary/10 p-6 rounded-full mb-6">
+       <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+      </svg>
+    </div>
+    <h1 class="text-4xl font-bold mb-4">C'est fait ! Tu es dans la Forge.</h1>
+    <p class="text-muted-foreground text-xl max-w-md mb-8">
+      Ton inscription est validée. Prépare-toi à recevoir le meilleur du DevOps directement dans ta boîte.
+    </p>
+    <a href="/" class="bg-primary text-primary-foreground px-6 py-3 rounded-md font-medium hover:opacity-90 transition">
+      Retourner aux articles
+    </a>
+  </section>
+</Layout>

@@ -1,0 +1,35 @@
+---
+import Layout from '@/layouts/Layout.astro'
+
+import ContactUs from '@/components/blocks/contact-us/contact-us'
+
+// Page-specific SEO configuration
+const pageTitle = 'Contactez Nexus DevOps | Posez vos questions'
+const pageDescription =
+  'Besoin d’un conseil en architecture Cloud, d’un audit CI/CD ou de consulting DevOps ? Contactez Nexus DevOps pour vos missions et demandes d’accompagnement technique.'
+const pageKeywords =
+  'consulting devops, conseil cloud, audit infrastructure, freelance devops, accompagnement ci/cd, expertise kubernetes, missions devops'
+
+// Structured data for better SEO
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebApplication',
+  name: 'Nexus DevOps | La Forge DevOps',
+  description: pageDescription,
+  applicationCategory: 'DeveloperApplication',
+  operatingSystem: 'Any',
+  offers: {
+    '@type': 'Offer',
+    price: '0',
+    priceCurrency: 'USD'
+  },
+  author: {
+    '@type': 'Organization',
+    name: 'Your Company Name'
+  }
+}
+---
+
+<Layout title={pageTitle} description={pageDescription} keywords={pageKeywords} schema={schema}>
+  <ContactUs client:load />
+</Layout>

@@ -5,65 +5,23 @@ import sitemap from '@astrojs/sitemap'
 import mdx from '@astrojs/mdx'
 import react from '@astrojs/react'
 
-import node from '@astrojs/node';
+// 1. On change l'import ici
+import vercel from '@astrojs/vercel';
 
 export default defineConfig({
-  site: 'http://localhost:4321/',
+  // 2. Change l'URL pour ton futur domaine (important pour le sitemap)
+  site: 'https://nexus-devops.fr',
 
   integrations: [
     react(),
     mdx(),
     sitemap({
-      filter: page => !page.includes('/admin/') && !page.includes('/private/'),
-      customPages: [],
-      serialize(item) {
-        // Homepage - highest priority
-        if (item.url === 'http://localhost:4321/') {
-          // @ts-expect-error - Valid sitemap changefreq value
-          item.changefreq = 'daily'
-          item.priority = 1.0
-        }
-
-        // Blog listing pages - high priority
-        else if (item.url.includes('/blog') && !item.url.includes('/blog/')) {
-          // @ts-expect-error - Valid sitemap changefreq value
-          item.changefreq = 'daily'
-          item.priority = 0.9
-        }
-
-        // Individual blog posts - medium-high priority
-        else if (item.url.includes('/blog/')) {
-          // @ts-expect-error - Valid sitemap changefreq value
-          item.changefreq = 'weekly'
-          item.priority = 0.8
-        }
-
-        // Tag/category pages - medium priority
-        else if (item.url.includes('/tags/') || item.url.includes('/categories/')) {
-          // @ts-expect-error - Valid sitemap changefreq value
-          item.changefreq = 'weekly'
-          item.priority = 0.7
-        }
-
-        // Static pages - medium-low priority
-        else if (item.url.includes('/login') || item.url.includes('/register')) {
-          // @ts-expect-error - Valid sitemap changefreq value
-          item.changefreq = 'monthly'
-          item.priority = 0.5
-        }
-
-        // All other pages
-        else {
-          // @ts-expect-error - Valid sitemap changefreq value
-          item.changefreq = 'weekly'
-          item.priority = 0.6
-        }
-
-        return item
-      }
+      // Ton code de sitemap actuel est très bien, garde-le tel quel
+      // ... (ton code sitemap ici)
     })
   ],
 
+  // 3. ON PASSE EN HYBRIDE pour tes fonctions serveur (Resend)
   output: 'static',
   compressHTML: true,
 
@@ -73,20 +31,7 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
-    build: {
-      cssMinify: true,
-      minify: 'esbuild',
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            'react-vendor': ['react', 'react-dom']
-          }
-        }
-      }
-    },
-    ssr: {
-      noExternal: ['@radix-ui/*']
-    }
+    // ... (ton code vite ici)
   },
 
   markdown: {
@@ -96,7 +41,6 @@ export default defineConfig({
     }
   },
 
-  adapter: node({
-    mode: 'standalone'
-  })
+  // 4. ON UTILISE L'ADAPTATEUR VERCEL
+  adapter: vercel()
 })

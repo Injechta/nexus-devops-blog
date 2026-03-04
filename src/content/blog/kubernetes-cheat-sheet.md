@@ -3,7 +3,7 @@ id: 2
 slug: "kubernetes-cheat-sheet-essentiel-devops"
 title: "Kubernetes Cheat Sheet : L'Essentiel du DevOps"
 description: "Optimisons notre workflow Kubernetes : une Cheat Sheet indispensable regroupant les commandes kubectl essentielles pour les ingénieurs DevOps."
-pubDate: "21 février 2026"
+pubDate: "2026-03-04"
 imageUrl: "/images/kubernetes.jpeg" # Pense à ajouter une image dans public/images/blog/
 imageAlt: "Commandes kubectl essentielles pour Kubernetes"
 category: "Cheat Sheets"

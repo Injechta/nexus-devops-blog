@@ -3,7 +3,7 @@ id: 1
 slug: "lab-1-terraform-gcp"
 title: "Lab #1 : Déployer avec Terraform & GitHub Actions"
 description: "Automatiser ton premier déploiement d'instance sécurisée sur GCP avec une approche IaC."
-pubDate: "20 février 2026"
+pubDate: "2026-03-04"
 imageUrl: "/images/blog-post/githubActions.png"  # Remplace heroImage par imageUrl
 imageAlt: "Logo GitHub Actions sur un serveur"   # Ajout de cette ligne pour le alt
 category: "IaC"

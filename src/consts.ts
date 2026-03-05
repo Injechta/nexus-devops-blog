@@ -6,7 +6,7 @@ export const SITE_DESCRIPTION =
   'Bienvenue sur le blog  dédié à la culture DevOps. Progressons ensemble.'
 
 export const GITHUB_URL = 'https://github.com/GregoryElBajoury'
-export const SITE_URL = 'https://shadcnstudio.com/'
+export const SITE_URL = 'https://nexus-devops-blog.vercel.app/'
 
 export const SITE_METADATA = {
   title: {
@@ -69,7 +69,7 @@ export const SITE_METADATA = {
     siteName: 'Nexus DevOps',
     title: 'Nexus DevOps | La Forge Devops',
     description:
-      'La forge de Nexus DevOps, des articles, des tutoriels et des labs  sur les pilliers du DevOps.',
+      'La forge de Nexus DevOps, des articles, des tutoriels et des labs sur les pilliers du DevOps.',
     images: [
       {
         url: '/moi.jpeg',

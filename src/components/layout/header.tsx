@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useLayoutEffect, useState } from 'react'
-import { MailIcon, MenuIcon } from 'lucide-react'
+import { MailIcon, MenuIcon, TerminalIcon } from 'lucide-react'
 
 import ThemeToggle from '@/components/layout/theme-toggle'
 

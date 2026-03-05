@@ -55,4 +55,4 @@ const LogoSvg = (props: SVGAttributes<SVGElement>) => {
   )
 }
 
-export default LogoSvg
+export default LogoSvg */

@@ -8,6 +8,9 @@ import react from '@astrojs/react'
 // 1. On change l'import ici
 import vercel from '@astrojs/vercel';
 
+// Ajout de rehype-slug pour les titres dans les articles
+import rehypeSlug from 'rehype-slug';
+
 export default defineConfig({
   // 2. Change l'URL pour ton futur domaine (important pour le sitemap)
   site: 'https://nexus-devops.fr',
@@ -35,6 +38,7 @@ export default defineConfig({
   },
 
   markdown: {
+    rehypePlugins: [rehypeSlug], // <--- FORCE LA GÉNÉRATION DES IDS
     shikiConfig: {
       theme: 'github-dark',
       wrap: true

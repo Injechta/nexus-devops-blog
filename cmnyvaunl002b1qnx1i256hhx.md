@@ -5,8 +5,8 @@ seoDescription: "APT vs Snap : Comment être sûr de la provenance de tes binair
 datePublished: 2026-04-14T17:00:28.215Z
 cuid: cmnyvaunl002b1qnx1i256hhx
 slug: gestion-de-paquets-sherlock-nexus-traque-l-origine-de-tes-fichiers
-cover: https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/c4690867-d493-4d86-96a6-07b3068876ef.png
-ogImage: https://cdn.hashnode.com/uploads/og-images/6989fc595065ae2aa69fc161/438cd1e9-20b6-4a75-a5ae-b3f9e41c41d8.png
+cover: https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/29fbcbde-512c-42a7-9f5d-f5b9b85a3dec.png
+ogImage: https://cdn.hashnode.com/uploads/og-images/6989fc595065ae2aa69fc161/d29153b9-61fb-4d9a-9aec-0e48588d1830.png
 tags: ubuntu, sysadmin, linux, security, devops
 
 ---

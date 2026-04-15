@@ -7,7 +7,7 @@ cuid: cmnyvaunl002b1qnx1i256hhx
 slug: gestion-de-paquets-sherlock-nexus-traque-l-origine-de-tes-fichiers
 cover: https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/29fbcbde-512c-42a7-9f5d-f5b9b85a3dec.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/6989fc595065ae2aa69fc161/d29153b9-61fb-4d9a-9aec-0e48588d1830.png
-tags: ubuntu, sysadmin, linux, security, devops
+tags: ubuntu, sysadmin, linux, security, devops, apt, debsums
 
 ---
 

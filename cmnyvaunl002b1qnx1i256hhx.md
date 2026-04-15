@@ -1,5 +1,5 @@
 ---
-title: "Gestion de paquets : Sherlock Nexus traque l'origine de tes fichiers""
+title: "Gestion de paquets : Sherlock Nexus traque l'origine de tes fichiers"
 seoTitle: "APT, Snap : Sherlock Nexus traque l'origine de tes fichiers "
 seoDescription: "APT vs Snap : Comment être sûr de la provenance de tes binaires Linux ? Sherlock Nexus traque l'origine des fichiers et déjoue les risques de sécurité"
 datePublished: 2026-04-14T17:00:28.215Z

@@ -220,7 +220,7 @@ df -h | grep microk8s
 
 Sherlock Nexus a bouclé l'enquête ! Rappeles-toi : dans la vie, on peut douter de tout, mais dans le terminal, on fait confiance aux binaires... enfin, seulement s'ils ont passé l'audit.
 
-![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/6f24fead-9370-4a7d-933f-21fef30c9de2.png align="center")
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/919aabca-eef5-4eab-8d52-f5a3ce419d7e.png align="center")
 
 Allez, je te laisse, j'ai un **processus** en cours et un `sudo` qui m'attend. Je ne voudrais pas manquer d'**arguments** face à mon prochain mystère. Comme dirait mon ami Watson : 'C’est élémentaire, mon cher binaire !'"
 

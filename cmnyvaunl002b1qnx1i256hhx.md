@@ -108,7 +108,7 @@ sudo debsums coreutils
 
 *   **Le statut "OK" :** Signifie que l'empreinte numérique (le hash) du fichier sur ton disque correspond exactement à celle fournie par les dépôts officiels.
     
-*   **L'astuce de Sherlock :** Si tu as trop de lignes, utilise l'option `-s` (silent) pour que l'outil ne t'avertisse **que si un fichier a été modifié**. Si rien ne s'affiche avec `-s`, ton système est sain !
+*   **L'astuce de Sherlock Nexus :** Si tu as trop de lignes, utilise l'option `-s` (silent) pour que l'outil ne t'avertisse **que si un fichier a été modifié**. Si rien ne s'affiche avec `-s`, ton système est sain !
     
 
 ```shell
@@ -150,7 +150,7 @@ debsums -l
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/93e75ca9-1c54-470d-9676-9be3df935388.png align="left")
 
-> Le constat de Sherlock : Si un paquet apparaît dans cette liste, l'enquête s'arrête là pour debsums. Il faudra alors redoubler de vigilance ou vérifier manuellement les sources.
+> Le constat de Sherlock Nexus: Si un paquet apparaît dans cette liste, l'enquête s'arrête là pour debsums. Il faudra alors redoubler de vigilance ou vérifier manuellement les sources.
 
 *   **WARNING : L'aveuglement face aux intrus :** `debsums` vérifie si les fichiers *existants* ont changé. Mais si un attaquant dépose un **nouveau** fichier malveillant, l'outil ne le verra pas. *Le conseil de Sherlock :* Pour traquer ces passagers clandestins, il faudra passer à des outils d'audit d'intégrité plus lourds comme **AIDE** ou **Tripwire**.
     
@@ -172,7 +172,7 @@ Imagine que tu doives installer un cluster Kubernetes local (**MicroK8s**). C'es
 
 #### 1\. L'Interpellation (Installation)
 
-L'enquête commence par une installation propre. Sherlock utilise l'option `--classic` car MicroK8s a besoin d'un accès spécifique aux ressources du système pour gérer les conteneurs.
+L'enquête commence par une installation propre. Sherlock Nexus utilise l'option `--classic` car MicroK8s a besoin d'un accès spécifique aux ressources du système pour gérer les conteneurs.
 
 ```shell
 sudo snap install microk8s --classic
@@ -180,7 +180,7 @@ sudo snap install microk8s --classic
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/55c5def3-d0d4-4bc2-a787-20464935f7d0.png align="center")
 
-*   **Le constat de Sherlock :** Contrairement à APT, Snap ne télécharge pas des dizaines de paquets séparés. Il récupère un seul bloc monolithique, signé et certifié par l'éditeur (ici, Canonical).
+*   **Le constat de Sherlock Nexus:** Contrairement à APT, Snap ne télécharge pas des dizaines de paquets séparés. Il récupère un seul bloc monolithique, signé et certifié par l'éditeur (ici, Canonical).
     
 
 #### 2\. La Fiche d'Identité (`snap list`)
@@ -205,7 +205,7 @@ df -h | grep microk8s
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/67617ce1-0234-403b-bb3a-26d5f838ca56.png align="left")
 
-**Le constat de Sherlock :** Regarde bien ces lignes. MicroK8s possède ses propres espaces de stockage (`shm`) isolés dans des "sandboxes". Snap monte l'application en **lecture seule**. C'est l'immutabilité : même avec les droits root, modifier le binaire original est impossible car il est verrouillé dans son image compressée.
+**Le constat de Sherlock Nexus :** Regarde bien ces lignes. MicroK8s possède ses propres espaces de stockage (`shm`) isolés dans des "sandboxes". Snap monte l'application en **lecture seule**. C'est l'immutabilité : même avec les droits root, modifier le binaire original est impossible car il est verrouillé dans son image compressée.
 
 ### Pourquoi Sherlock Nexus valide cette méthode :
 
@@ -218,6 +218,10 @@ df -h | grep microk8s
 
 ### Le mot de la fin
 
-Comprendre son gestionnaire de paquets, c'est maîtriser la chaîne de confiance de son serveur. Sherlock Nexus a bouclé l'enquête, mais le terminal nous réserve encore des mystères...
+Sherlock Nexus a bouclé l'enquête ! Rappeles-toi : dans la vie, on peut douter de tout, mais dans le terminal, on fait confiance aux binaires... enfin, seulement s'ils ont passé l'audit.
 
-**Et toi, quelle commande t'a donné le plus de fil à retordre récemment ?**
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/6f24fead-9370-4a7d-933f-21fef30c9de2.png align="center")
+
+Allez, je te laisse, j'ai un **processus** en cours et un `sudo` qui m'attend. Je ne voudrais pas manquer d'**arguments** face à mon prochain mystère. Comme dirait mon ami Watson : 'C’est élémentaire, mon cher binaire !'"
+
+**À très vite pour de nouvelles investigations !**

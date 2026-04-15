@@ -33,7 +33,6 @@ La commande de base pour identifier l'origine d'un binaire est `dpkg -S`. Mais S
 
 ### 1\. Le mirage du "Merged /usr"
 
-  
 Si tu tapes `dpkg -S /bin/ls`, Sherlock Nexus voit une erreur : aucun chemin ne correspond.
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/4a9f40c5-4a8a-4dd2-b936-c3dc52054ad9.png align="left")
@@ -118,6 +117,43 @@ sudo debsums -s coreutils
 ```
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/ebe29e74-8dac-4f25-b59d-0aa9e5dde45a.png align="left")
+
+**L'option** `-c` **(Changed)** : Idéal pour traquer uniquement les fichiers qui ont été modifiés par rapport à l'original. Si tout est correct la demande ne renvoie rien
+
+```shell
+sudo debsums -c
+```
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/8ad4df96-d97e-4d29-b5bd-ad0ae5b5f43d.png align="left")
+
+### Les limites à connaître (L'œil de Sherlock)
+
+Même si c'est un outil puissant, il y a trois choses que Sherlock Nexus doit noter dans son rapport :
+
+1.  **Les fichiers de configuration sont ignorés par défaut :** La plupart du temps, `debsums` ignore les fichiers dans `/etc/` car il est normal qu'ils soient modifiés par l'administrateur. Si tu veux aussi les vérifier, il faut ajouter l'option `-a` :
+    
+
+```shell
+sudo debsums -ca
+```
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/c38c2d24-a19b-45af-870b-7fb36ac1b01f.png align="left")
+
+> **Le rapport d'enquête en image :** *"Regarde ce scan sur ma propre machine.* `debsums` *a immédiatement repéré que j'avais modifié ma configuration GDM3 et mon fichier sudoers. C'est la preuve que l'option* `-a` *ne laisse rien passer, même dans les dossiers système les plus sensibles."*
+
+**Certains paquets n'ont pas de sommes de contrôle :** Tous les développeurs ne fournissent pas les empreintes MD5 nécessaires à l'audit. Pour savoir quels paquets sur ton système sont "muets" et échappent à ta loupe, utilise :
+
+```shell
+# Lister les paquets qui n'ont pas de fichiers de sommes de contrôle
+debsums -l
+```
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/93e75ca9-1c54-470d-9676-9be3df935388.png align="left")
+
+> Le constat de Sherlock : Si un paquet apparaît dans cette liste, l'enquête s'arrête là pour debsums. Il faudra alors redoubler de vigilance ou vérifier manuellement les sources.
+
+*   **WARNING : L'aveuglement face aux intrus :** `debsums` vérifie si les fichiers *existants* ont changé. Mais si un attaquant dépose un **nouveau** fichier malveillant, l'outil ne le verra pas. *Le conseil de Sherlock :* Pour traquer ces passagers clandestins, il faudra passer à des outils d'audit d'intégrité plus lourds comme **AIDE** ou **Tripwire**.
+    
 
 ## Le Bonus Entreprise : La gestion de flotte
 

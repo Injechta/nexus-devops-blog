@@ -21,15 +21,17 @@ J'ai troqué MicroK8s pour **Minikube**, mais tu vas voir que la magie opère :
 
 à part une commande spécifique pour charger l'image (`minikube image load`), mes fichiers YAML et ma logique restent strictement les mêmes.
 
-> 💡 **Note pour les utilisateurs de MicroK8s :** Si comme dans le K-LAB#1 tu travailles sur MicroK8s, la commande `minikube image load` n'existe pas. Tu devras soit exporter/importer ton image en `.tar` via `microk8s ctr image import`, soit utiliser le registre local (`microk8s enable registry`). La destination change, mais le voyage reste le même !
-
 C'est ça, la promesse de Kubernetes : l'infrastructure devient agnostique du matériel !
+
+> 💡 **Note pour les utilisateurs de MicroK8s :**
+> 
+> Si comme dans le K-LAB#1 tu travailles sur MicroK8s, la commande `minikube image load` n'existe pas. Tu devras soit exporter/importer ton image en `.tar` via `microk8s ctr image import`, soit utiliser le registre local (`microk8s enable registry`). La destination change, mais le voyage reste le même !
 
 ### Rappel
 
-> Dans le premier volet, K-LAB#1, on a réussi ensemble à faire tourner notre API Nexus sur Kubernetes. C'était une belle victoire, mais restons lucides : si on poussait ce code en production tel quel, n'importe quel auditeur de sécurité nous bannirait de la salle serveur.
-> 
-> Pourquoi ? Parce qu'une application qui "tourne" peut cacher des centaines de vulnérabilités. Aujourd'hui, on passe en mode **DevSecOps**. On va auditer, scanner et durcir notre infrastructure.
+*Dans le premier volet, K-LAB#1, on a réussi ensemble à faire tourner notre API Nexus sur Kubernetes. C'était une belle victoire, mais restons lucides : si on poussait ce code en production tel quel, n'importe quel auditeur de sécurité nous bannirait de la salle serveur.*
+
+*Pourquoi ? Parce qu'une application qui "tourne" peut cacher des centaines de vulnérabilités. Aujourd'hui, on passe en mode* ***DevSecOps****. On va auditer, scanner et durcir notre infrastructure.*
 
 ## 1\. L'Audit de Vulnérabilités avec Trivy
 

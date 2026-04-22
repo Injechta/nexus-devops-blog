@@ -249,7 +249,29 @@ Une fois ces petits réglages effectués, tu devrais avoir un environnement stab
 
 🔗 **Ressources**
 
-Si tu préfères récupérer le fichier directement ou le garder de côté, le code complet est également disponible sur ce [**Gist GitHub**](https://gist.github.com/Injechta/c3a96f55cab3ba0c27cfa6b7b3339216).
+Plutôt que de copier-coller des lignes de commande, j'ai préparé un **Kit Nexus** pour automatiser l'installation sur Fedora.
+
+*   `install_`[`opentofu.sh`](http://opentofu.sh) : Pour configurer le repo et installer le Tux en un clin d'œil.
+    
+*   [`main.tf`](http://main.tf) : Notre configuration Docker prête à l'emploi.
+    
+*   `uninstall_`[`opentofu.sh`](http://opentofu.sh) : Parce que Nexus sait aussi faire le ménage.
+    
+
+Tout est içi dans ce [**Gist GitHub**](https://gist.github.com/Injechta/c3a96f55cab3ba0c27cfa6b7b3339216).
+
+> **Comment utiliser les scripts** `sh`**:**
+> 
+> 1.  Copie le contenu du script de ton choix (exemple `install_opentofu.sh`).
+>     
+> 2.  Crée un fichier avec le même nom sur ta machine et colle y le contenu copié :  
+>     `nano install_opentofu.sh`
+>     
+> 
+> 1.  Donne-lui les droits d'exécution : `chmod +x install_opentofu.sh`
+>     
+> 2.  Lance le : `sudo ./install_opentofu.sh`
+>     
 
 * * *
 

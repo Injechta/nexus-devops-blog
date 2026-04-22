@@ -146,6 +146,27 @@ Félicitations ! Si tu vas sur [`http://localhost:8080`](http://localhost:8080),
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/b288b614-c558-4682-87fb-397a33ff593a.png align="left")
 
+**4.Destruction :** Le repli stratégique
+
+Une mission réussie, c'est aussi savoir effacer ses traces. Si tu as besoin de tout démonter proprement (ou si tu veux simplement éviter que ta facture Cloud ne s'envole plus haut que ton parachute), OpenTofu a la commande qu'il te faut.
+
+Lance la commande `tofu destroy` :
+
+```shell
+tofu detroy
+```
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/b8239289-8f02-4e98-b994-a7579072f3be.png align="left")
+
+1.  Tape `yes` quand il te le demande
+    
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/07c2b9b2-c210-42b6-9691-06e540119180.png align="left")
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/7ae75595-a1f4-4140-a6b4-9cd357ccfc66.png align="left")
+
+Nexus regarde les ressources disparaître une à une de son écran. Pas de restes, pas de coûts inutiles, juste une infrastructure propre et bien gérée.
+
 ## 5\. Migration : Passer de Terraform à OpenTofu
 
 Si tu as déjà un projet Terraform, la migration est ridiculeusement simple :

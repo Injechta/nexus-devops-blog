@@ -156,7 +156,7 @@ Une mission réussie, c'est aussi savoir effacer ses traces. Si tu as besoin de 
 Lance la commande `tofu destroy` :
 
 ```shell
-tofu detroy
+tofu destroy
 ```
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/b8239289-8f02-4e98-b994-a7579072f3be.png align="left")
@@ -244,6 +244,14 @@ curl -sS https://get.opentofu.org/install.sh | sudo bash -s -- --install-repo
 ```
 
 Une fois ces petits réglages effectués, tu devrais avoir un environnement stable et prêt à l'emploi. Ce qu'il faut retenir, c'est qu'OpenTofu n'est pas juste un clone : c'est un outil qui remet la sécurité et la transparence au centre, tout en restant familier pour ceux qui viennent de Terraform.
+
+* * *
+
+🔗 **Ressources**
+
+Si tu préfères récupérer le fichier directement ou le garder de côté, le code complet est également disponible sur ce [**Gist GitHub**](https://gist.github.com/Injechta/c3a96f55cab3ba0c27cfa6b7b3339216).
+
+* * *
 
 ### Le mot de la fin
 

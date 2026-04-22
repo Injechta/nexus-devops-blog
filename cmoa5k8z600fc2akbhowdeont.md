@@ -247,7 +247,7 @@ Une fois ces petits réglages effectués, tu devrais avoir un environnement stab
 
 * * *
 
-🔗 **Ressources**
+### 🔗 **Ressources**
 
 Plutôt que de copier-coller des lignes de commande, j'ai préparé un **Kit Nexus** pour automatiser l'installation sur Fedora.
 

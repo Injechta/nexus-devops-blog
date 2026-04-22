@@ -11,6 +11,9 @@ tags: opensource, devops, terraform, infrastructure-as-code, opentofu
 
 ---
 
+> "Passer à OpenTofu, c'est un peu comme si un manchot apprenait à voler : au début tout le monde est sceptique, et à la fin, on trouve ça tellement plus classe."  
+> *Nexus, 2026*
+
 Hello friend,
 
 Si tu es sorti de ta grotte il y a bien des lunes, tu as vu que Terraform a changé de licence (passage à la BUSL), ce qui a poussé la communauté à créer un "fork" totalement open-source soutenu par la Linux Foundation : **OpenTofu**.

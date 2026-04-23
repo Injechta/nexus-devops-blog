@@ -258,7 +258,7 @@ Plutôt que de copier-coller des lignes de commande, j'ai préparé un **Kit Nex
 *   `uninstall_`[`opentofu.sh`](http://opentofu.sh) : Parce que Nexus sait aussi faire le ménage.
     
 
-Tout est içi dans ce [**Gist GitHub**](https://gist.github.com/Injechta/c3a96f55cab3ba0c27cfa6b7b3339216).
+[📂 Code Source : Retrouve ces scripts sur GitHub Gist](https://gist.github.com/Injechta/c3a96f55cab3ba0c27cfa6b7b3339216).
 
 > **Comment utiliser les scripts** `sh`**:**
 > 

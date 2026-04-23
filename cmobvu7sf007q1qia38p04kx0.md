@@ -1,10 +1,10 @@
 ---
-title: "Observabilité : J'ai monté ma première stack de monitoring sécurisée (Épisode 1)"
+title: "Observabilité : La première stack de monitoring sécurisée de Nexus (Épisode 1)"
 seoTitle: "DevOps Monitoring Ep 1 : Prometheus & Node Exporter / Docker"
 seoDescription: "Guide DevOps : Déployons Prometheus et Node Exporter sur Docker. Apprenons à collecter nos métriques système avec une approche pas à pas et sécurisée."
 datePublished: 2026-04-23T19:36:31.987Z
 cuid: cmobvu7sf007q1qia38p04kx0
-slug: observabilit-j-ai-mont-ma-premi-re-stack-de-monitoring-s-curis-e-pisode-1
+slug: observabilit-la-premi-re-stack-de-monitoring-s-curis-e-de-nexus-pisode-1
 cover: https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/1fd0bbd5-b285-4f22-85cd-ab69b73b16f4.png
 ogImage: https://cdn.hashnode.com/uploads/og-images/6989fc595065ae2aa69fc161/6b54735f-2e56-490a-bd11-e52ef2e34f28.png
 tags: linux, docker, cloud-computing, monitoring, devops, infrastructure, prometheus, fedora, grafana, observability

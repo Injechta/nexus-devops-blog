@@ -20,6 +20,14 @@ Aujourd'hui, je t'emmène avec moi pour poser les fondations d'une stack **LPG**
 
 * * *
 
+**LE SCHÉMA :**
+
+*Avant de plonger dans les explications et le terminal, jetons un œil au plan du labo :*
+
+![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/c4cc8d5d-f828-4ef0-91b5-ab7f82fb819e.png align="center")
+
+* * *
+
 ### **1\. Le terrain de jeu : Pourquoi Docker Compose et Fedora ?**
 
 Pour ce projet, je travaille sur **Fedora**. C'est une distribution géniale, mais exigeante en termes de sécurité (merci SELinux !).
@@ -152,7 +160,7 @@ Si `localhost:9090` ne répond pas, vérifie d'abord l'état de tes conteneurs :
 docker compose ps
 ```
 
-*Cherche la colonne* ***STATUS****. Si tu vois* `Exit 1` *ou* `Restarting`*, il y a un souci .*
+*Cherche la colonne* ***STATUS***\*. Si tu vois\* `Exit 1` *ou* `Restarting`*, il y a un souci .*
 
 ### 2\. Lire dans les pensées de Prometheus
 

@@ -188,7 +188,7 @@ Si tu veux tout reprendre à zéro et nettoyer les volumes de données :
 docker compose down -v
 ```
 
-### 5\. Nettoyer ses traces comme un pro (The Clean Exit)
+### 5\. Le Guide du Décommissionnement (The Clean Exit)
 
 Un vrai DevOps ne se contente pas d'éteindre la lumière en partant ; il s'assure que toute l'infrastructure est bien décommissionnée. Voici comment faire table rase proprement.
 
@@ -268,7 +268,7 @@ Si le volume `lpg-stack_prometheus_data` n'apparaît plus, ton disque est totale
 
 En entreprise, laisser des ressources "orphelines" (un volume oublié, un réseau qui traîne) finit par polluer le serveur et peut même bloquer d'autres déploiements futurs. En vérifiant chaque étape, tu t'assures que ton environnement de travail reste sain.
 
-Et puis cela nous donnera l'occasion de le reproduire quand on attaquera la suite dans l'épisode 2
+Et puis cela nous donnera l'occasion de le reproduire quand on attaquera la suite.
 
 * * *
 

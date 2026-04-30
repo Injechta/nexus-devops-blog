@@ -38,7 +38,7 @@ J'ai choisi **Docker Compose** pour rester pragmatique. L'idée est de construir
 
 Avant de lancer le moindre conteneur, on prépare un espace propre. **Ouvre ton terminal** et lance ces commandes pour créer l'arborescence exacte :
 
-```shell
+```plaintext
 # On crée le dossier parent et les sous-dossiers de configuration
 mkdir -p ~/Projets/lpg-stack/{prometheus,loki,grafana,promtail}
 
@@ -67,7 +67,7 @@ scrape_configs:
 
   - job_name: 'node-exporter'
     static_configs:
-      - targets: ['node-exporter:9100'] # Notre machine Fedora
+      - targets: ['node-exporter:9100'] # Notre machine
 ```
 
 * * *
@@ -190,7 +190,7 @@ docker compose down -v
 
 ### 5\. Le Guide du Décommissionnement (The Clean Exit)
 
-Un vrai DevOps ne se contente pas d'éteindre la lumière en partant ; il s'assure que toute l'infrastructure est bien décommissionnée. Voici comment faire table rase proprement.
+Un vrai DevOps ne se contente pas d'éteindre la lumière en partant, il s'assure que toute l'infrastructure est bien décommissionnée. Voici comment faire table rase proprement :
 
 **Étape A : Arrêter les services**
 

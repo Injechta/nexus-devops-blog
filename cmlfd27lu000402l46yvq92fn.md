@@ -10,36 +10,48 @@ tags: programming, learning, devops, beginners, career, learning-journey
 
 # Pourquoi ce blog Lab sera mon journal de bord technique
 
-Hello friends,
+Hello friend,
 
 Moi c'est **Greg**.
 
-On dit souvent que dans le monde du DevOps, si ce n'est pas documenté, ça n'existe pas. Aujourd'hui, je décide d'appliquer cette règle à mon propre parcours en ouvrant les portes de mon **CodeOps Lab**.
+On dit souvent que dans le monde du DevOps, **"si ce n'est pas documenté, ça n'existe pas".** Aujourd'hui, je décide d'appliquer cette règle à mon propre parcours en ouvrant les portes de la **Forge Nexus DevOps**.
 
 ### Apprendre en public : Ma démarche
 
 En tant que DevOps junior, je suis confronté chaque jour à une montagne de nouvelles technologies. Plutôt que de garder mes notes dans un coin de mon disque dur, j'ai choisi de les partager ici. Pourquoi ?
 
-* **Cristalliser les connaissances :** Rien n'oblige à mieux comprendre un sujet que le fait de devoir l'expliquer par écrit.
+*   **Cristalliser les connaissances :** Rien n'oblige à mieux comprendre un concept que le fait de devoir l'expliquer clairement à quelqu'un d'autre.
     
-* **Tracer mon historique :** Ce blog sera la "Time Machine" de mon évolution, de mes premières erreurs de configuration à mes futurs déploiements complexes.
+*   **Tracer mon historique :** Ce blog sera la "Time Machine" de mon évolution, de mes premières erreurs de configuration à mes futurs déploiements complexes.
     
-* **Aider la communauté :** Si j'ai passé trois heures à débuguer un problème, autant que ma solution serve à quelqu'un d'autre !
+*   **Aider la communauté :** Si j'ai passé trois heures à débuguer un problème, autant que ma solution évite à un autre "forgeron" de s'arracher les cheveux !
     
 
-### Ce que je vais documenter ici
+### Ce que tu trouveras dans la Forge
 
-Je vais traiter ce blog comme un dépôt GitHub de connaissances. Vous y trouverez :
+Je vais traiter ce blog comme un dépôt GitHub de connaissances. Tu y trouveras :
 
-* **Mes "Projets Lab" :** Je documenterai mes montées en compétence pas à pas (ex: "Mon premier pipeline CI/CD de A à Z").
+*   **Mes "Labs" :** Des montées en compétence concrètes et documentées (ex: *"Bâtir son premier pipeline CI/CD de A à Z"*).
     
-* **Mes Cheat-Sheets :** Des guides pratiques sur les outils que j'explore (Docker, Terraform, Ansible...).
+*   **Mes Cheat-Sheets :** Des guides pratiques et rapides sur les outils que j'explore au quotidien (Docker, Terraform, Kubernetes, Ansible...).
+    
+*   **Mes Retours d'expérience (REX) :** Pas de langue de bois, on parlera aussi de ce qui casse !
     
 
 ### Une invitation à l'échange
 
-Si tu es un expert, tes conseils en commentaires seront mes meilleurs raccourcis. Si tu es junior comme moi, j'espère que mes galères te feront gagner du temps.
+La Forge est un espace ouvert. Si tu es un expert, tes conseils en commentaires seront mes meilleurs raccourcis. Si tu es junior comme moi, j'espère que mes galères te feront gagner un temps précieux.
 
-Le labo est ouvert, les premières expérimentations arrivent bientôt. **Stay tuned !**
+Le labo est prêt, les premières expérimentations arrivent bientôt.
+
+**Stay tuned !**
 
 Vers l’infini… Et au delà
+
+* * *
+
+> Bienvenue dans la Forge ! Ici, on ne cherche pas la perfection, on cherche l'automatisation. On va sûrement faire sauter quelques environnements de test, mais c'est comme ça qu'on apprend. **Installe-toi confortablement, prends un café, et comme on dit ici :** `git commit` **et que la Forge soit avec toi !** »
+
+— *Nexus, Gardien de la Forge, 2026*
+
+[![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

@@ -301,3 +301,9 @@ Restez connectés pour transformer votre cluster en une véritable forteresse !
 **On se retrouve au K-LAB#2 ? 😉**
 
 **Que la forge soit avec toi**
+
+> « Monter un cluster, c'est comme cuisiner pour un Hobbit : ça demande de la préparation, trois répliques minimum (pour le deuxième petit-déjeuner) et un bon coup de balai à la fin. Souviens-toi qu'un pod qui part en `CrashLoopBackOff`, c'est juste un conteneur qui essaie de te dire qu'il a oublié ses clés ! Alors garde ton YAML propre, et comme on dit dans la Forge : **un** `Namespace` **supprimé est un développeur qui dort en paix.** »
+
+— *Nexus, 2026*
+
+[![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

@@ -171,3 +171,9 @@ Pour les besoins plus avancés (automatisation, rapports visuels), Trivy support
 Ton outil est désormais en place et tu es prêt à détecter les failles avant qu'elles ne deviennent des brèches.
 
 **La suite du chemin ?** Dans le prochain article, nous ne nous contenterons plus de scanner manuellement. Nous allons intégrer ce rituel directement dans nos pipelines pour que plus aucune vulnérabilité ne puisse franchir les portes de notre cluster Kubernetes.
+
+> « Scanner ses images avec Trivy, c'est comme porter un casque en Beskar : ça n'empêche pas les problèmes d'exister, mais ça évite de perdre la tête au premier tir de blaster ! Alors avant de pousser ton code, n'oublie jamais... **Telle est la Voie (du scan) !** »
+
+— *Nexus l'Armurier, 2026*
+
+[![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

@@ -279,4 +279,6 @@ Plutôt que de copier-coller des lignes de commande, j'ai préparé un **Kit Nex
 > Et voilà, c'est fait. La mission est réussie. Tux a atterri en douceur sur la banquise Toulousaine.  
 > Ce n'était pas si difficile, n'est-ce pas ? La transition est fluide, le code est libre, et l'avenir est radieux (enfin, aussi radieux que le soleil de Toulouse, ce qui est quand même pas mal). Alors, n'hésite pas, saute le pas !
 
+[![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)
+
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/99a7e113-86a3-4837-9765-2836e35ef98c.png align="center")

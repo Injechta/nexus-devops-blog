@@ -32,16 +32,16 @@ Ce projet implémente une infrastructure automatisée et sécurisée sur **Googl
 
 ### La Stack Technique
 
-* **Cloud :** Google Cloud Platform (GCP).
+*   **Cloud :** Google Cloud Platform (GCP).
     
-* **IaC :** Terraform (avec un backend distant sur GCS pour la persistance du State).
+*   **IaC :** Terraform (avec un backend distant sur GCS pour la persistance du State).
     
-* **CI/CD :** GitHub Actions.
+*   **CI/CD :** GitHub Actions.
     
-* **Conteneurisation :** Docker (déploiement d'un serveur Nginx).
+*   **Conteneurisation :** Docker (déploiement d'un serveur Nginx).
     
 
----
+* * *
 
 ## Ce que j'ai mis en place
 
@@ -49,25 +49,25 @@ Ce projet implémente une infrastructure automatisée et sécurisée sur **Googl
 
 J'ai choisi de séparer le projet en deux étapes distinctes pour garantir la propreté de l'infrastructure :
 
-* `01-bootstrap` : Cette étape crée uniquement le Bucket GCS qui servira à stocker le fichier d'état (`.tfstate`) de Terraform.
+*   `01-bootstrap` : Cette étape crée uniquement le Bucket GCS qui servira à stocker le fichier d'état (`.tfstate`) de Terraform.
     
-* `02-infrastructure` : C'est ici que le "vrai" travail commence avec la définition des ressources Cloud (VM Compute Engine, Firewall, Docker).
+*   `02-infrastructure` : C'est ici que le "vrai" travail commence avec la définition des ressources Cloud (VM Compute Engine, Firewall, Docker).
     
 
 ### 2\. Un Pipeline CI/CD sécurisé
 
 Le déploiement suit un cycle rigoureux pour éviter les erreurs :
 
-1. **Phase d'Inspection (Plan)** : À chaque `git push`, Terraform calcule les changements nécessaires et génère un fichier `.tfplan`.
+1.  **Phase d'Inspection (Plan)** : À chaque `git push`, Terraform calcule les changements nécessaires et génère un fichier `.tfplan`.
     
-2. **Validation Manuelle (Manual Gate)** : C'est ma partie préférée. Le déploiement réel ne se déclenche que si je valide manuellement l'action sur GitHub. C'est une sécurité indispensable en production !
+2.  **Validation Manuelle (Manual Gate)** : C'est ma partie préférée. Le déploiement réel ne se déclenche que si je valide manuellement l'action sur GitHub. C'est une sécurité indispensable en production !
     
 
 ### 3\. Gestion des Secrets
 
 Aucune clé JSON n'est stockée en clair dans le dépôt. Tout passe par les **GitHub Secrets** (`GCP_SA_KEY`), ce qui respecte les bonnes pratiques de sécurité DevOps.
 
----
+* * *
 
 ## On avance ensemble ?
 
@@ -77,11 +77,11 @@ Que tu sois déjà expert ou juste curieux de voir comment ça se passe "sous le
 
 **C'est quoi la prochaine brique selon toi? Conteneurisation ou Monitoring ?**
 
----
+* * *
 
 **N’hésite pas à me dire ce que tu en penses en commentaire !** Est-ce que tu as réussi à déployer ton instance ? Tu as bloqué sur une erreur ? Dis-moi tout, on est là pour apprendre les uns des autres.
 
----
+* * *
 
 ## Code source et Documentation
 
@@ -89,4 +89,10 @@ Tu pourras retrouver l'intégralité du code, les fichiers de configuration et l
 
 🔗 [**Mon Repo : gcp-terraform-cicd-pipeline**](https://github.com/GregoryElBajoury/gcp-terraform-cicd-pipeline)
 
----
+* * *
+
+> « Le DevOps, c'est l'art de faire apparaître des serveurs par la seule force du texte. C'est un peu comme de la magie, sauf qu'on remplace la baguette par Terraform et le chapeau par un bucket GCS. **Prochaine étape : apprendre à ne pas faire disparaître la prod, ni la colombe !** »
+
+— *Nexus, Apprenti Magicien du Cloud, 2026*
+
+[![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

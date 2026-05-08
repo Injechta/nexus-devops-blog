@@ -281,4 +281,6 @@ Plutôt que de copier-coller des lignes de commande, j'ai préparé un **Kit Nex
 
 ![](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/99a7e113-86a3-4837-9765-2836e35ef98c.png align="center")
 
+* * *
+
 [![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

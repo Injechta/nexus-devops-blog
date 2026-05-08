@@ -31,7 +31,7 @@ C'est ça, la promesse de Kubernetes : l'infrastructure devient agnostique du ma
 
 *Dans le premier volet, K-LAB#1, on a réussi ensemble à faire tourner notre API Nexus sur Kubernetes. C'était une belle victoire, mais restons lucides : si on poussait ce code en production tel quel, n'importe quel auditeur de sécurité nous bannirait de la salle serveur.*
 
-*Pourquoi ? Parce qu'une application qui "tourne" peut cacher des centaines de vulnérabilités. Aujourd'hui, on passe en mode* ***DevSecOps****. On va auditer, scanner et durcir notre infrastructure.*
+*Pourquoi ? Parce qu'une application qui "tourne" peut cacher des centaines de vulnérabilités. Aujourd'hui, on passe en mode* ***DevSecOps***\*. On va auditer, scanner et durcir notre infrastructure.\*
 
 ## 1\. L'Audit de Vulnérabilités avec Trivy
 
@@ -339,3 +339,5 @@ Notre lab Nexus n'est plus seulement fonctionnel, il est **résilient**. Et le p
 Rendez-vous au K-LAB#3 pour le monitoring !
 
 Que la forge soit avec toi !
+
+[![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

@@ -54,4 +54,6 @@ Vers l’infini… Et au delà
 
 — *Nexus, Gardien de la Forge, 2026*
 
+* * *
+
 [![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

@@ -340,4 +340,6 @@ Rendez-vous au K-LAB#3 pour le monitoring !
 
 Que la forge soit avec toi !
 
+* * *
+
 [![Soutenez Nexus DevOps sur Tipeee](https://cdn.hashnode.com/uploads/covers/6989fc595065ae2aa69fc161/f98bcf45-3ed9-42a9-bffe-d14acf823970.png align="center")](https://fr.tipeee.com/nexus-devops-apprendre-la-science-du-devops/)

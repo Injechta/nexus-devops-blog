@@ -14,7 +14,7 @@ tags: linux, docker, cloud-computing, monitoring, devops, infrastructure, promet
 ## Introduction
 
 Hello Friend,  
-En tant que **Junior DevOps/SRE**, j'ai vite compris une chose : une infrastructure qui tourne, c'est bien. Une infrastructure dont on peut prouver la santé, c'est mieux.
+En tant qu'adepte de la forge, j'ai vite compris une chose : une infrastructure qui tourne, c'est bien. Une infrastructure dont on peut prouver la santé, c'est mieux.
 
 Aujourd'hui, je t'emmène avec moi pour poser les fondations d'une stack **LPG** (Loki, Prometheus, Grafana). Dans cet Épisode 1, on va se concentrer sur le "cœur" du système : la collecte de métriques.
 
@@ -116,6 +116,12 @@ networks:
 volumes:
   prometheus_data:
 ```
+
+### Zoom sur le Node Exporter
+
+> **Pourquoi lui ?** Le Node Exporter est l'agent standard de l'écosystème Prometheus pour les machines Linux. Son rôle est simple : il traduit les statistiques du noyau (CPU, RAM, usage disque) en métriques compréhensibles pour Prometheus.
+> 
+> **Le détail qui compte :** Tu remarqueras que j'ai configuré le conteneur en `read_only: true`. Pour ce POC, c'est une barrière de sécurité supplémentaire. Puisqu'il se contente de lire les fichiers virtuels du système (comme `/proc` ou `/sys`), il n'a aucune raison d'écrire sur ton disque. C'est propre, c'est sécurisé, c'est DevOps.
 
 Lancement de la stack
 
